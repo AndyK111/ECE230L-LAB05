@@ -12,7 +12,7 @@ module circuit_b(
                 (A & ~B & ~C & ~D)  |
                 (A & B & ~C & ~D)   |
                 (A & B & ~C & D)    |
-                (A & B & C & !D)    |
+                (A & B & C & ~D)    |
                 (A & B & C & D);
 
 
